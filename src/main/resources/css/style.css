@@ -1,0 +1,27 @@
+.pane {
+    -fx-background-color: #fff;
+    -fx-pref-width: 500;
+    -fx-pref-height: 1000;
+}
+.button{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 20px;
+    -fx-font-style: Bold;
+}
+.label{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 30px;
+    -fx-text-alignment: Center;
+}
+
+.combo-box{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 20px;
+    -fx-font-style: Italic;
+}
+
+#btn_continue:pressed {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+}
+
+

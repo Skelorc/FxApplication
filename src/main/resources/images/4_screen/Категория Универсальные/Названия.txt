@@ -1,0 +1,8 @@
+Товар 1 
+
+Название "Samura Mo-V"
+
+
+Товар 2
+
+Название "Boker Core Utility"
