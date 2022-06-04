@@ -10,13 +10,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="1000" prefWidth="500" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+<AnchorPane fx:id="pane" prefHeight="1000" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StartController">
    <children>
       <VBox alignment="TOP_CENTER" layoutY="97.0" prefHeight="905.0" prefWidth="500.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imageView_logo" fitHeight="268.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="/images/1_screen/Logo.png" />
+                  <Image url="/images/Other/Logo.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" contentDisplay="CENTER" text="Здравствуйте!" textAlignment="CENTER" wrapText="true">
@@ -39,9 +39,9 @@
                <VBox.margin>
                   <Insets top="25.0" />
                </VBox.margin></ComboBox>
-            <Button fx:id="btn_continue" minHeight="35.0" minWidth="150.0" mnemonicParsing="false" onAction="#getCategory">
+            <Button fx:id="btn_continue" minHeight="35.0" minWidth="150.0" mnemonicParsing="false" onAction="#started">
                <VBox.margin>
-                  <Insets top="250.0" />
+                  <Insets top="100.0" />
                </VBox.margin></Button>
          </children>
       </VBox>

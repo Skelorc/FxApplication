@@ -11,22 +11,19 @@ import java.io.IOException;
 public class ChangeScene {
 
     public static void changeWindow(Control control, String name_tab) {
-        Stage old_stage =  (Stage)control.getScene().getWindow();
-        old_stage.close();
-        Parent root = null;
+        Stage stage =  (Stage) control.getScene().getWindow();
         try {
-            root = FXMLLoader.load(control.getClass().getResource("/tabs/"+name_tab+".fxml"));
+            Parent tab = FXMLLoader.load(ChangeScene.class.getResource("/tabs/"+name_tab+".fxml"));
+            Scene sc = new Scene(tab, 500, 1000);
+            stage.setTitle(name_tab);
+            sc.getStylesheets().addAll(ChangeScene.class.getResource("/css/style.css").toExternalForm());
+            stage.setScene(sc);
+            stage.setResizable(false);
+            stage.show();
         } catch (IOException e)
         {
             e.printStackTrace();
         }
-        Stage new_stage = new Stage();
-        new_stage.setTitle("FX Application");
-        Scene sc = new Scene(root, 500, 1000);
-        sc.getStylesheets().addAll(control.getClass().getResource("/css/style.css").toExternalForm());
-        old_stage.setScene(sc);
-        //stage.getIcons().add(new Image(StartApp.class.getResource("/image/logo.png").toExternalForm()));
-        new_stage.setResizable(false);
-        new_stage.show();
+
     }
 }

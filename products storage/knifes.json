@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Универсальная",
+    "name": "Samura Mo-V",
+    "description": "Профессиональный цельный нож; острый, тонкий клинок. Специальная практичная ножевая японская молибден-ванадиевая сталь AUS8.Эргономичная рукоятка из G-10 дает полный контроль реза.",
+    "price": 4980,
+    "main_icon": "/images/Products/Universal/Universal_main.png",
+    "big_icon": "/images/Products/Universal/Universal_1.png",
+    "small_icon": "/images/Products/Universal/Universal_3.png"
+  },
+  {
+    "category": "Универсальная",
+    "name": "Boker Core Utility",
+    "description": "Профессиональный цельный нож; острый, тонкий клинок. Специальная практичная ножевая японская молибден-ванадиевая сталь AUS8. Эргономичная рукоятка из плотной микарты дает полный контроль реза.",
+    "price": 4275,
+    "main_icon": "/images/Products/Universal/Universal_main.png",
+    "big_icon": "/images/Products/Universal/Universal_2.png",
+    "small_icon": "/images/Products/Universal/Universal_4.png"
+  },
+  {
+    "category": "Хлебные",
+    "name": "Ran YA36008",
+    "description": "Нож для хлеба Ran YA36008, деревянная рукоять, нержавеющая сталь",
+    "price": 3570,
+    "main_icon": "/images/Products/Bread/Bread_main.png",
+    "big_icon" : "/images/Products/Bread/Bread_1.png",
+    "small_icon": "/images/Products/Bread/Bread_3.png"
+  },
+  {
+    "category": "Хлебные",
+    "name": "Opinel №124",
+    "description": "Нож для хлеба Opinel №124",
+    "price": 8750,
+    "main_icon": "/images/Products/Bread/Bread_main.png",
+    "big_icon" : "/images/Products/Bread/Bread_2.png",
+    "small_icon": "/images/Products/Bread/Bread_4.png"
+  },
+  {
+    "category": "Шефские",
+    "name": "Tramontica Century 7",
+    "description": "Классический сантоку нож небольшого размера. Данный нож готов выполнить любое поручение своего хозяина. Стильный японский дизайн в сочетании с качеством серии Century Line",
+    "price": 2790,
+    "main_icon": "/images/Products/Chief/Chief_main.png",
+    "big_icon" : "/images/Products/Chief/Chief_1.png",
+    "small_icon": "/images/Products/Chief/Chief_3.png"
+  },
+  {
+    "category": "Шефские",
+    "name": "Victorinox Sanktoku 6,8503,17",
+    "description": "Один из самых популярных ножей на рынке, и пользуется спросом благодаря своей универсальности использования на кухне. Этот нож может хорошо резать, рубить и крошить. Размер Santoku просто идеален для резки мелкими ломтиками или кубиками как мяса, так и овощей.",
+    "price": 4500,
+    "main_icon": "/images/Products/Chief/Chief_main.png",
+    "big_icon" : "/images/Products/Chief/Chief_2.png",
+    "small_icon": "/images/Products/Chief/Chief_4.png"
+  }
+]
+
+
+

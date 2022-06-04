@@ -1,27 +1,69 @@
-.pane {
+#pane{
     -fx-background-color: #fff;
     -fx-pref-width: 500;
     -fx-pref-height: 1000;
 }
-.button{
+
+.button {
     -fx-font-family: "Segoe UI";
     -fx-font-size: 20px;
-    -fx-font-style: Bold;
+    -fx-font-weight: bold;
+    -fx-background-color: #fff;
 }
-.label{
+
+.label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 30px;
+    -fx-text-alignment: Center;
+}
+#cb_type_payment{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 20px;
+}
+
+
+.text-field{
     -fx-font-family: "Segoe UI";
     -fx-font-size: 30px;
     -fx-text-alignment: Center;
 }
 
-.combo-box{
+.text-area {
+    -fx-background-color: #fff, #fff;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 16px;
+    -fx-text-alignment: Center;
+}
+.text-area .content {
+    -fx-background-color: #fff;
+}
+
+.text-area:focused .content {
+    -fx-background-color: #fff;
+}
+
+.combo-box {
     -fx-font-family: "Segoe UI";
     -fx-font-size: 20px;
-    -fx-font-style: Italic;
+    -fx-font-style: italic;
 }
 
 #btn_continue:pressed {
-    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 10, 0, 0, 1);
+}
+
+.table-cell{
+    -fx-background-color: #fff;
+}
+
+#tableView .table-column {
+    -fx-alignment: CENTER-LEFT;
+}
+
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
 }
 
 

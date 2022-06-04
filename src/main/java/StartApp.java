@@ -16,5 +16,6 @@ public class StartApp extends Application {
         //stage.getIcons().add(new Image(StartApp.class.getResource("/image/logo.png").toExternalForm()));
         stage.setResizable(false);
         stage.show();
+        
     }
 }
